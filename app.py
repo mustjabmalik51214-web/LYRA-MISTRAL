@@ -7,7 +7,7 @@ app = Flask(__name__)
 print("Loading Mistral-7B-Instruct-v0.3 Model...")
 pipe = pipeline(
     "text-generation",
-    model="mistralai/Mistral-7B-Instruct-v0.3",
+    model="muhammad-taqi512/LYRA-MISTRAL",
     torch_dtype=torch.float16,
     device_map="auto"
 )
